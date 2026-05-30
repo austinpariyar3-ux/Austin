@@ -1,0 +1,9 @@
+loaded_h_0(function(_){var window=this;
+_.xis=_.y("QrpsMc",[_.em]);
+_.v("QrpsMc");
+var H4v=function(a){a.Ca||(a.Ca=!0,_.Ip(a.Tb.oa(),a.Aa,15).log())},I4v=class extends _.cs{static Sa(){return{service:{Tb:_.Ku}}}constructor(a){super();this.Ca=!1;this.Tb=a.service.Tb;this.Ka=this.Ja("W7hAGe");this.Aa=this.Ka.el();this.Ba=this.Ja("ZtOxCb").el()}Ub(){this.Aa.value="";super.Ub()}Ea(){H4v(this);_.Ip(this.Tb.oa(),this.Ba,3).log();this.submit()}oa(){H4v(this)}Qc(a){a=a.event;if(a.key==="Enter"){let b;(b=a.preventDefault)==null||b.call(a);this.submit()}}Ha(a){a=a.event;a=a.inputType==="insertFromPaste"?
+a.data:null;const b=this.getSelection();b&&b===this.Aa.value&&a!==b&&this.trigger("npkXDe")}lka(){const a=this.Aa.value.length===0;a&&this.trigger("npkXDe");this.Ba.setAttribute("disabled",a?"true":"false");this.Ba.setAttribute("aria-disabled",a?"true":"false");this.Ba.setAttribute("tabindex",a?"-1":"0")}Da(){this.Aa.value=""}getSelection(){return this.Aa.selectionStart===null||this.Aa.selectionEnd===null?"":this.Aa.value.substring(this.Aa.selectionStart,this.Aa.selectionEnd)}submit(){this.Aa&&this.Aa.value.trim().length>
+0&&this.trigger("REY9L",this.Aa.value.trim())}};I4v.prototype.$wa$Zpug7c=function(){return this.Da};I4v.prototype.$wa$e4JwSe=function(){return this.lka};I4v.prototype.$wa$nhG30c=function(){return this.Ha};I4v.prototype.$wa$h5M12e=function(){return this.Qc};I4v.prototype.$wa$VTwMI=function(){return this.oa};I4v.prototype.$wa$HiUbje=function(){return this.Ea};I4v.prototype.$wa$k4Iseb=function(){return this.Ub};_.es(_.xis,I4v);
+_.x();
+});
+// Google Inc.
